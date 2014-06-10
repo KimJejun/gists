@@ -16,10 +16,15 @@
 CREATE (summoner1:Summoner { 
        		Name: "Turtle the Cat"}) 
 
+CREATE (game1:Game { playedAt: "2014-05-01", type: "RANKED_GAME", isWin: true})
+
+CREATE (summoner1)-[:PLAYED]-(game1)
 
 
 RETURN *
 ----
 
+
+//graph
 
 '''
