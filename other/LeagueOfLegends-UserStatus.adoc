@@ -3,3 +3,23 @@
 :author: JejunKim
 :twitter: @sleepyjune
 :tags: domain:game
+
+...
+
+== Sample Data Set
+
+//setup
+[source,cypher]
+----
+
+//create summoner
+CREATE (summoner1:Summoner { 
+       		Name: "Turtle the Cat"}) 
+
+
+
+RETURN *
+----
+
+
+'''
